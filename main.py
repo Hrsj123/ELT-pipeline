@@ -7,7 +7,7 @@ from actions.operations import operations
 from actions.upload import upload_file
 
 if __name__ == '__main__':
-    access_key = os.getenv('ACCESS_KEY')
+    access_key = os.getenv('ACCESS_KEY')    
     secret_key = os.getenv('SECRET_KEY')
 
     data_path = './Data'
